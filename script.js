@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             var hour = (new Date).getHours(); // get computer hours
 
-            if (hour >= 9 && hour <= 17) { // from 6h to 17h, display day mode
+            if (hour >= 6 && hour <= 17) { // from 6h to 17h, display day mode
                 $('.day').css("opacity", 1);
                 $("#day_audio").css("display", "flex");
             } else { // other time, display night mode
